@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?android:attr/selectableItemBackground"
+    android:clickable="true"
+    android:focusable="true"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/row_padding_vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/row_padding_vertical">
+
+    <TextView
+        android:id="@+id/question_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFF"
+        android:layout_marginLeft="10dp"
+        android:padding="8dp"
+        android:textSize="14dp"
+        android:background="@drawable/question_background"
+        android:text="Question" />
+
+    <TextView
+        android:id="@+id/question_answer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/question_title"
+        android:layout_marginTop="4dp"
+        android:layout_marginRight="10dp"
+        android:textColor="#FFF"
+        android:padding="8dp"
+        android:visibility="gone"
+        android:background="@drawable/answer_background"
+        android:textSize="14dp"
+        android:text="Answer" />
+
+
+</RelativeLayout>

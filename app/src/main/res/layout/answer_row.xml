@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="?android:attr/selectableItemBackground"
+    android:clickable="true"
+    android:focusable="true"
+    android:orientation="vertical"
+    android:paddingBottom="2dp"
+    android:paddingLeft="4dp"
+    android:paddingRight="2dp"
+    android:paddingTop="2dp">
+
+    <TextView
+        android:id="@+id/answer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:textColor="#05D2C9"
+        android:padding="8dp"
+        android:background="@drawable/answer_selection_bg"
+        android:textSize="14dp"
+        android:text="Answer" />
+
+
+</RelativeLayout>
